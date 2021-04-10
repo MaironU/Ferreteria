@@ -59,6 +59,9 @@
                                 </a>-->
                             </form>
                             <div class="text-center">
+                                <a href="register" class="small" href="forgot-password.html">Registrarse</a>
+                            </div>
+                            <div class="text-center">
                                 <a class="small" href="forgot-password.html">¿Olvidaste la contraseña?</a>
                             </div>
                             <!--<div class="text-center">

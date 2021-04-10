@@ -14,5 +14,5 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="{{asset('css/sb-admin-2.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('css/sb-admin-2.css')}}" rel="stylesheet">
 </head>

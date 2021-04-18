@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials/head')
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary body">
 <div class="container">
 
 <!-- Outer Row -->
@@ -15,7 +15,7 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Bienvenido a mí ferretería!</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Bienvenido a la Ferretería calidad!</h1>
                             </div>
                             <form class="user" method="POST" action="{{ route('login') }}">
                                 @csrf

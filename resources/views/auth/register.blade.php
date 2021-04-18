@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials/head')
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary body">
 <div class="container">
 
     <div class="card o-hidden border-0 shadow-lg my-5">
@@ -84,7 +84,7 @@
         </div>
     </div>
 </div>
-
+<script src="{{asset('js/change.js')}}"></script>
 @include('partials/scripts')
 </body>
 </html>

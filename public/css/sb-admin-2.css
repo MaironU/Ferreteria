@@ -583,6 +583,15 @@ pre code {
   }
 }
 
+
+@media (max-width: 993px) {
+  .body{
+    background-image: url('/img/banner/banner2.jpeg') !important;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -10824,13 +10833,13 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://media.istockphoto.com/photos/set-of-hand-various-work-tools-on-grey-background-picture-id596042932");
+  background: url("/img/banner/banner2.jpeg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+  background: url("/img/banner/banner2.jpeg");
   background-position: center;
   background-size: cover;
 }

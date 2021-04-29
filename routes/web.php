@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+Route::resource('ferreteria', 'App\Http\Controllers\FerreteriaController');
 
-Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
+

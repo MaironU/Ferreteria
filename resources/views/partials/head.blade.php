@@ -15,4 +15,5 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('css/sb-admin-2.css')}}" rel="stylesheet">
+    <link href="{{asset('css/ferre.css')}}" rel="stylesheet">
 </head>

@@ -1,0 +1,28 @@
+@media (max-width: 576px){
+    .font-size-xs-3 {
+      font-size: 1.25rem !important;
+    }
+}
+
+.size-card-product{
+    width: 220px;
+    margin-top: 10px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+@media(max-width: 630px){
+    .parent-products{
+        justify-content: center;
+    }
+
+    .parent-products .size-card-product {
+        width: 290px;
+    }
+
+    .parent-products .size-card-product img{
+        height: 200px;
+    }
+}

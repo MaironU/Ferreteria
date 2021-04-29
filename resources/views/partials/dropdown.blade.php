@@ -8,15 +8,15 @@
     </a>
 
     <!-- Divider -->
-    <hr class="sidebar-divider my-0">
+   <!-- <hr class="sidebar-divider my-0">-->
 
     <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
+    <!--<li class="nav-item active">
         <a class="nav-link" href="/dashboard">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Ferretería</span>
         </a>
-    </li>
+    </li>-->
 
     <!-- Divider -->
     <hr class="sidebar-divider">
@@ -26,14 +26,29 @@
         Categorías
     </div>
 
-    <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Repuestos de Moto</span>
+            <i class="fab fa-stripe-s"></i>
+            <span>Ferretería</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Ferretería:</h6>
+                <a class="collapse-item" href="buttons.html">Inicio</a>
+                <a class="collapse-item" href="cards.html">Más vendidos</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour"
+            aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-motorcycle"></i>
+            <span>Repuestos de Moto</span>
+        </a>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Repuestos de Moto:</h6>
                 <a class="collapse-item" href="buttons.html">Inicio</a>
@@ -46,7 +61,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
             aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-fw fa-wrench"></i>
+            <i class="fas fa-biking"></i>
             <span>Repuestos de Bicicletas</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"

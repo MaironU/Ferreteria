@@ -37,6 +37,7 @@
                 <h6 class="collapse-header">Ferretería:</h6>
                 <a class="collapse-item" href="buttons.html">Inicio</a>
                 <a class="collapse-item" href="cards.html">Más vendidos</a>
+                <a class="collapse-item" href="cards.html">Crear producto</a>
             </div>
         </div>
     </li>
@@ -53,6 +54,7 @@
                 <h6 class="collapse-header">Repuestos de Moto:</h6>
                 <a class="collapse-item" href="buttons.html">Inicio</a>
                 <a class="collapse-item" href="cards.html">Más vendidos</a>
+                <a class="collapse-item" href="cards.html">Crear producto</a>
             </div>
         </div>
     </li>
@@ -70,6 +72,7 @@
                 <h6 class="collapse-header">Repuestos de bicicletas:</h6>
                 <a class="collapse-item" href="utilities-color.html">Inicio</a>
                 <a class="collapse-item" href="utilities-border.html">Más vendidos</a>
+                <a class="collapse-item" href="cards.html">Crear producto</a>
             </div>
         </div>
     </li>

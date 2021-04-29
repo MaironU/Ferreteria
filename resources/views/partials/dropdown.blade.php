@@ -4,7 +4,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-store"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Ferretería Calidad</div>
+        <div class="sidebar-brand-text mx-3">FerreRepuestos</div>
     </a>
 
     <!-- Divider -->

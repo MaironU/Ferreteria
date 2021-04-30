@@ -71,7 +71,7 @@
                                 @endforeach
                         </div>
                 @else
-                        <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column align-items-center cont-no-products">
                                 <span class="text-danger">No hay productos creados</span>
                                 <a href="/ferreteria/create">Crear uno</a>
                         </div>

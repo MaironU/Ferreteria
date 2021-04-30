@@ -54,4 +54,8 @@
     .container-fluid, .cont-edit{
         padding: 0;
     }
+    .cont-no-products{
+        display: flex;
+        justify-content: center;
+    }
 }

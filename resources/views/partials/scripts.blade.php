@@ -14,3 +14,4 @@
 <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
 <script src="{{asset('js/demo/chart-pie-demo.js')}}"></script>
 <script src="{{asset('js/ferre.js')}}"></script>
+<script src="{{asset('js/owlcarrousel/owl.carousel.min.js')}}"></script>

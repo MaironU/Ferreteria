@@ -16,4 +16,5 @@
     <!-- Custom styles for this template-->
     <link href="{{asset('css/sb-admin-2.css')}}" rel="stylesheet">
     <link href="{{asset('css/ferre.css')}}" rel="stylesheet">
+    <link href="{{asset('js/owlcarrousel/owl.carousel.min.css')}}" rel="stylesheet">
 </head>

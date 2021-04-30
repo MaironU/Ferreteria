@@ -13,6 +13,28 @@
     font-size: 14px;
 }
 
+.owl-dots-custom {
+    position: absolute;
+    bottom: 60px;
+    right: calc(50% - 22px);
+    z-index: 10;
+}
+
+.owl-dots-custom .active {
+    background: #27326d !important;
+}
+
+.owl-dot {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background: #D6D6D6 !important;
+    border: 1px solid #D6D6D6;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0;
+}
+
 @media(max-width: 630px){
     .parent-products{
         justify-content: center;
@@ -20,9 +42,16 @@
 
     .parent-products .size-card-product {
         width: 290px;
+        margin-right: 0 !important;
     }
 
     .parent-products .size-card-product img{
         height: 200px;
+    }
+}
+
+@media(max-width: 430px){
+    .container-fluid, .cont-edit{
+        padding: 0;
     }
 }

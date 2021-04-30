@@ -24,3 +24,19 @@ $("#images_products").on('change', function(){
         }
     }
 })
+$(document).ready(function(){
+    $.fn.andSelf = function() { return this.addBack.apply(this, arguments); }
+
+    $('.owl-carousel').owlCarousel({
+        nav: true,
+        margin: 0,
+        loop: true,
+        autoplay: true,
+        items: 1,
+        dotsContainer: '.carousel-custom-dots',
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        startPosition: 'URLHash',
+        navText : ["<div style='top: 32%!important' class='btn-prev'></div>", "<div style='top: 32%!important' class='btn-next'></div>"]
+    })
+})

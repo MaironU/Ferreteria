@@ -1,7 +1,7 @@
 @extends('partials/layout')
 
 @section('content')
-    <div class="col-lg-8" style="margin: 0 auto">
+    <div class="col-lg-8 cont-edit" style="margin: 0 auto">
         <div class="p-3">
             <div class="text-center d-flex justify-content-end">
                 <a href="/ferreteria">Productos</a>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                     <textarea type="description" class="form-control form-control-user @error('description') is-invalid @enderror"
-                        id="description" placeholder="Descripción del producto" name="description" autocomplete="current-description" value="{{ $product->description }}"></textarea>
+                        id="description" placeholder="Descripción del producto" name="description" autocomplete="current-description" value="{{$product->description}}">{{$product->description}}</textarea>
 
                         @error('description')
                             <span class="invalid-feedback" role="alert">

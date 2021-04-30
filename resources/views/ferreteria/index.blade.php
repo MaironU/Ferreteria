@@ -2,11 +2,27 @@
 
 @section('content')
         <h1 class="h3 mb-0 text-gray-800 font-size-xs-3 ml-3">Productos de ferretería</h1>
+        @if (\Session::has('success'))
+                <div class="alert alert-success alert-dismissible fade show mt-2 mx-4" role="alert">
+                        {!! \Session::get('success') !!}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+        @endif
         <div class="mt-4 d-flex">
                 @if(count($products) > 0)
                         <div class="d-flex w-100 flex-wrap parent-products">
-                                @foreach($products as $product)
-                                <div class="card size-card-product d-flex flex-column align-items-center mr-2">
+                                @foreach($products as $product)        
+                                <div class="card size-card-product d-flex flex-column align-items-center mr-2 position-relative">
+                                        <form id="form_delete_{{$product->id}}" action="{{ url('ferreteria/'.$product->id) }}" method="POST" class="position-absolute" style="right: 7px; top: 7px">
+                                                {{ csrf_field() }}
+                                                {{ method_field('DELETE') }}    
+                                                <input type="hidden" id="product_id" value="{{$product->id}}">   
+                                                <button type="button" class="border-0 bg-white delete_product">
+                                                        <i class="fas fa-trash-alt text-danger"></i>
+                                                </button> 
+                                        </form>        
                                         <img class="card-img-top w-75" loading="lazy" height="150px" src="{{asset('/img/products/'.$product->images[0]->image)}}" alt="Card image cap">
                                         <div class="card-body d-flex flex-column align-items-center fs-14">
                                                 <span class="text-dark">{{$product->name}}</span>   

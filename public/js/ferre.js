@@ -24,6 +24,26 @@ $("#images_products").on('change', function(){
         }
     }
 })
+
+$(".delete_product").on('click', function(){
+    let id = $("#product_id").val()
+    console.log("el id", id)
+    Swal.fire({
+        title: '¿Está seguro de eliminar el producto?',
+        text: "",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Si, eliminar',
+        cancelButtonText: 'Cancelar'    
+      }).then((result) => {
+        if (result.isConfirmed) {
+            $("#form_delete_" + id).submit();  
+        }
+      })
+})
+
 $(document).ready(function(){
     $.fn.andSelf = function() { return this.addBack.apply(this, arguments); }
 

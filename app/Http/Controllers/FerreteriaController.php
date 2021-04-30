@@ -149,6 +149,13 @@ class FerreteriaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        try{
+            $product = Product::findOrFail($id);
+            $product->delete();
+            return redirect()->back()->with('success', 'Producto eliminado satisfactoriamente');   
+        }catch(\Exception $e){
+            \DB::rollback();
+            return $e;
+        } 
     }
 }
